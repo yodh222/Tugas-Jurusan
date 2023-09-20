@@ -1,0 +1,121 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #676767;
+    border-radius: 10px;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    /* color: white; */
+    height: 1000pc;
+}
+a {
+    text-decoration: none;
+}
+header {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: black !important;
+}
+nav {
+    /* position: sticky;
+    top: 0; */
+    height: 4.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #494949;
+    transition: 0.5s;
+    font-size: 20px;
+    color: white;
+}
+.left {
+    padding-left: 2.5rem;
+    font-weight: 600;
+    font-size: 30px;
+}
+.left a {
+    cursor: default;
+    color: white;
+}
+.right {
+    margin-right: 2.5rem;
+}
+nav ul {
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-left: 1rem;
+    transition: 0.5s;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+nav li a:hover {
+    background-color: #ffffff;
+    box-shadow: inset 0 0 10px #00000080;
+    color: black;
+    transition: 0.5s;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1.5rem;
+    justify-content: space-between;
+    /* padding-top: 3rem; */
+}
+.l-main {
+    width: 25rem;
+    height: 25rem;
+    /* border: 1px solid black; */
+}
+.l-main img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.main {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    width: calc(100% - 24rem);
+    border-left: 1px black;
+    border-style: inherit;
+}
+.tentang-saya {
+    flex-direction: column;
+    padding-left: 2rem;
+    width: 90%;
+}
+.tentang-saya h1 {
+    text-transform: capitalize;
+}
+.tentang-saya p {
+    font-size: 20px;
+}
+.tentang-saya p a {
+    color: black;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #494949;
+    height: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+}
